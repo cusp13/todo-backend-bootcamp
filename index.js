@@ -16,7 +16,7 @@ const app = express();
 
 // Enable CORS for React frontend
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://your-frontend-domain.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
