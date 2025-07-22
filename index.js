@@ -16,7 +16,7 @@ const app = express();
 
 // Enable CORS for React frontend
 app.use(cors({
-  origin: 'https://todo-backend-bootcamp.onrender.com',
+  origin: 'https://merry-cactus-b887fe.netlify.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
